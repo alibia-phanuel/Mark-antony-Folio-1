@@ -1,0 +1,475 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbox {
+}
+.baner {
+  height: 900px;
+  background: url("img/baner.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fond {
+  height: 900px;
+  background-image: linear-gradient(#7a39db75, #2521f277);
+  position: relative;
+}
+
+.skewedBox {
+  background-color: rgb(255, 255, 255);
+  padding: 70px;
+  transform: skew(0deg, -4deg);
+  position: relative;
+  bottom: 69px;
+}
+.skewedBox2 {
+  background-color: rgb(255, 255, 255);
+  padding: 70px;
+  transform: skew(0deg, -4deg);
+  position: relative;
+  bottom: -60px;
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+}
+.containerFlex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-top: 30px; */
+}
+.logo {
+  color: #a0d334;
+  font-size: 28px;
+}
+.menu a {
+  color: white;
+  text-transform: capitalize;
+  font-size: 14px;
+  padding: 15px;
+  transition: all 1s;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #a0d334;
+  background-color: white;
+}
+button {
+  padding: 18px 41px;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  text-transform: capitalize;
+}
+.infoPesonality {
+  position: absolute;
+  left: 60%;
+  top: 20%;
+}
+.infoPesonality p {
+  margin-bottom: 59px;
+  color: white;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+.infosName {
+  font-size: 60px;
+}
+.green {
+  background-color: yellowgreen;
+  color: white;
+  border: none;
+}
+.bars {
+  display: none;
+  width: 50px;
+  position: relative;
+  top: 10px;
+  right: 15px;
+}
+.bar {
+  width: 100%;
+  height: 4px;
+  margin: 3px 0px;
+  background-color: rgb(255, 255, 255);
+}
+.n1 {
+  display: none;
+}
+
+/* 
+FIN DU CODE BANER ET DEBUT DE LA SECTION SERVICES
+
+*/
+.cardsButton {
+  background-color: #a0d334;
+}
+.smallcardBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.serFlex {
+  display: flex;
+}
+.smallcard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: whitesmoke;
+  width: 338px;
+  height: 175px;
+  color: #4a4a4a;
+  padding-left: 20px;
+  box-shadow: 10px 5px 10px 5px rgb(118 112 112 / 10%);
+  margin: 15px;
+  transition: all 1s;
+}
+.smallcard:hover {
+  background-image: linear-gradient(#7a39dbab, #2421f2ab);
+  color: white;
+}
+.smallcard .icone {
+  margin-left: 10px;
+  margin-right: 15px;
+  position: relative;
+  bottom: 29%;
+}
+h4 {
+  font-size: 16px;
+}
+.cards {
+  position: relative;
+  top: 10%;
+  margin-bottom: 30px;
+}
+.cards .tite {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: #4a4a4a;
+  font-weight: bold;
+}
+.cardsContnt {
+  margin-top: 21px;
+  margin-bottom: 41px;
+  color: #4a4a4a;
+}
+/* 
+RESPONSIVE
+
+*/
+.banerviws {
+  height: 600px;
+  background: url("img/Groupe\ de\ masques\ 16.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.fondv {
+  height: 600px;
+  background-image: linear-gradient(#7a39db75, #2521f277);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.videos {
+  text-align: center;
+}
+.videos img {
+  height: 110px;
+  width: 110px;
+  cursor: pointer;
+}
+.videos p {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.skilsBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #4a4a4a;
+}
+.skilsBox h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.skilsBox p {
+  font-size: 14px;
+}
+
+/* 
+
+
+style des cercles avec %
+
+*/
+.svss {
+  margin-top: 62px;
+}
+svg {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  z-index: 1000;
+}
+.cantainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.cantainer .cardC {
+  position: relative;
+  width: 250px;
+  text-align: center;
+  overflow: hidden;
+}
+.percent {
+  position: relative;
+}
+.percent .number {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.percent h2 {
+  color: #777;
+  font-weight: 700;
+  font-size: 34px;
+  transition: 0.6s;
+}
+.box .txt {
+  color: #777;
+  font-weight: lighter;
+  font-size: 16px;
+  transition: 0.6s;
+  color: #4a4a4a;
+  margin-top: 39px;
+}
+svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #e9e9e9;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+}
+svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+.cardC:nth-child(1) svg circle:nth-child(2) {
+  stroke: #f5317f;
+  stroke-dashoffset: calc(440 - (440 * 75) / 100);
+}
+.cardC:nth-child(2) svg circle:nth-child(2) {
+  stroke: #b122e5;
+  stroke-dashoffset: calc(440 - (440 * 70) / 100);
+}
+.cardC:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 95) / 100);
+  stroke: #1270e3;
+}
+
+.cardC:nth-child(4) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 60) / 100);
+  stroke: #2cbfc7;
+}
+
+.cardC:nth-child(5) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 85) / 100);
+  stroke: #ff8359;
+}
+.gallery,
+.box-folio {
+  margin: 40px 0px;
+}
+
+/* CODE DE LA GALLERY */
+.gallery .img div {
+  position: relative;
+  overflow: hidden;
+  transition: all 1s;
+  margin: 10px;
+}
+img {
+  transition: all 1s;
+}
+.gallery .img div:hover img {
+  transform: scale(1.2);
+}
+.gallery .img div::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #6048ff58;
+}
+.img5 {
+  position: relative;
+  bottom: 17%;
+  background-color: red;
+}
+
+.more {
+  padding: 55px 0px;
+  background-color: #fafaff;
+}
+.moreText {
+  font-size: 30px;
+  font-weight: bold;
+  color: #4a4a4a;
+  justify-content: space-between;
+}
+footer {
+  background-image: linear-gradient(#7a39db, #2421f2a1);
+  color: white;
+  padding-top: 71px;
+  padding-bottom: 40px;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+footer h2 {
+  font-size: 21px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+footer ul li {
+  font-size: 14px;
+  margin: 5px 0px;
+}
+footer .w-100 p {
+  margin: 11px 0px;
+}
+.boxIcone i {
+  font-size: 30px;
+  margin: 0px 10px;
+}
+.icImg {
+  height: 36px;
+  width: 36px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-transform: capitalize;
+  position: relative;
+  top: 10%;
+  margin: 0px 10px;
+}
+.contac p {
+  text-transform: capitalize;
+}
+
+.testimonial {
+  padding: 10px;
+  margin: 10px;
+  color: #382e36;
+  background-color: white;
+  box-shadow: 10px 5px 10px 5px rgb(118 112 112 / 10%);
+}
+.pic img {
+  background-color: red;
+  border-radius: 50px;
+  padding: 2px;
+  background-image: linear-gradient(#7a39dba8, #2421f282);
+}
+
+.testimonials,
+.skils {
+  margin: 150px 0px;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+
+@media screen and (max-width: 984px) {
+  .nav a {
+    color: white;
+  }
+  .menu a:hover {
+    color: rgb(56, 56, 56);
+    background-color: rgb(255, 255, 255);
+  }
+  .bars {
+    display: block;
+    cursor: pointer;
+  }
+
+  .infoPesonality {
+    display: block;
+    left: 50%;
+    top: 20%;
+  }
+  .butMenu {
+    display: none;
+  }
+  .menu,
+  .butMenu {
+    position: absolute;
+  }
+  .menu {
+    top: 50px;
+    transition: 1s;
+    transform: translateX(-100%);
+    background-image: linear-gradient(#7a39db9a, #2421f296);
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .menu .butMenu {
+    position: relative;
+    display: block;
+  }
+  .navbox {
+    display: flex;
+    justify-content: space-between;
+  }
+  .baner {
+    background-position: 25% 75%;
+  }
+  .show {
+    transform: translateX(0%);
+    z-index: 1997;
+    transition: 1s;
+  }
+}
+
+@media screen and (max-width: 596px) {
+  .infoPesonality {
+    display: block;
+    left: 10%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 961px) {
+  .smallcard {
+    width: 100%;
+  }
+}
